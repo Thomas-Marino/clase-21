@@ -5,6 +5,9 @@ class Usuario:
     __username: str
     __clave: str
 
+    def saludar(self): 
+        print(f"Hola, me llamo {self.__usuario}")
+
     @property
     def username(self): return self.__username
     
