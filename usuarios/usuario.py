@@ -7,6 +7,9 @@ class Usuario:
 
     def saludar(self): 
         print(f"Hola, me llamo {self.__usuario}")
+        
+    def registrar_usuario(self, nuevo_usuario, nueva_clave):
+        pass
 
     @property
     def username(self): return self.__username
